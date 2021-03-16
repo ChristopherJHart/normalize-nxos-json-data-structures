@@ -1,7 +1,7 @@
 """Contains unit tests for functions in the eigrp_neighbors module."""
 
 import pytest
-from examples.eigrp_neighbors import get_number_of_eigrp_neighbors
+from examples.on_box_eigrp_neighbors import get_number_of_eigrp_neighbors
 
 
 @pytest.mark.parametrize(
