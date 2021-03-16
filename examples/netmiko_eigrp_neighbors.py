@@ -19,7 +19,7 @@ from netmiko import Netmiko
 def command(
     host: str, username: str, password: str, cmd: str, structured: bool = False
 ) -> Union[str, dict]:
-    """Execute a command through NX-OS CLI libraries.
+    """Execute a command through a remote connection to a switch via Netmiko.
 
     This function connects to a switch using parameters `host`, `username`, and `password`. Then,
     this function executes an NX-OS CLI command using Netmiko.
