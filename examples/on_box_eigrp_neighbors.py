@@ -1,10 +1,10 @@
 #!/isan/bin/nxpython3
-"""Contains an example of JSON data structure normalization with EIGRP neighbors.
+"""Contains an example of JSON data structure normalization with EIGRP neighbors with on-box Python.
 
 When executed, this script prints the quantity of EIGRP adjacencies configured across all EIGRP
-processes and VRFs.
+processes and VRFs on the local switch.
 
-Tests for this script can be found in the ./tests/examples/test_eigrp_neighbors.py file.
+Tests for this script can be found in the ./tests/examples/test_on_box_eigrp_neighbors.py file.
 
 This script was tested in CML2.1 with Nexus 9000v switches running NX-OS 9.3(7).
 """
